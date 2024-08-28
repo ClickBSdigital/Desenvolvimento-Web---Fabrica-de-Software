@@ -1,0 +1,28 @@
+
+
+p{
+    color: red;
+    font-size: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: blue;
+    font-size: 30px;
+}
+
+ol{
+    width: 100%;
+    height: 250px;
+    background-color: chartreuse;
+    color: magenta;
+}
+
+ol li{
+    background-color: white;
+    width: 50%;
+}
+
+ul{
+    width: 80%;
+    background-color: blueviolet;
+    color: white;
+}
