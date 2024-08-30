@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #18181b;
+}
+header{
+    width: 100%;
+    height: 100px;
+
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 0 0 16px 16px ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    
+    border-bottom: 1px solid white;
+}
+#divLogo{
+    width: 10%;
+    height: 100px;
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#divLogo img{
+    width: 100px;
+    height: 100%;
+}
+.navBAr{
+    width: 90%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navList{
+    width: 100%;
+    height: 100%;
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.navItem{
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteinerTitle{
+    width: 100%;
+    height: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.title{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteinerTitle h1{
+    font-size: 40px;
+    color: #9849ff;
+}
+
+.containerImg{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerImg img{
+    width: 500px;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.containerCarrossel{
+    width: 80%;
+    height: 500px;
+    margin-top: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10%;
+
+    border: 3px solid #9849ff;
+    box-shadow: 0 0 20px #9849ff;
+}
+
+.imagens{
+    width: 250px;
+    height: 250px;
+
+    border: 1px solid#9849ff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.imagens img{
+    /* width: 100%;
+    height: 100%; */
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #9849ff;
+
+}
+.containerSvg {
+    float: left;
+    width: 100%;
+    margin-bottom: -2px;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.containerSvg svg {
+    float: left;    
+    display: block;
+    width: calc(148% + 1.3px);
+    height: 178px;
+    /* background: #ffffff; */
+    margin-bottom: -2px;
+}
+.containerSvg .shape-fill {
+    fill: #9849ff;
+}
+

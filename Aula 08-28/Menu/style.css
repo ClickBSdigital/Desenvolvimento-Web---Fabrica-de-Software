@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(224, 38, 5);
+    background-color: #18181b;
 }
 
 header{
@@ -13,9 +13,17 @@ header{
 
     display: flex;
     flex-direction: row;
+
+
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 0 0 16px 16px ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 1px solid rgba(255, 255, 255, 0.84);
 }
 
-div{
+divLogo{
     width: 10%;
     height: 100%;
 
@@ -46,7 +54,7 @@ li{
 }
 a{
     font-size: 24px;
-    color: red;
+    color: white;
     text-decoration: none;
 }
 a:hover{
@@ -62,7 +70,13 @@ ul ul {
 
     display: none;
     position: absolute;
-    background-color: white;
+    
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 0 0 16px 16px ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 1px solid rgba(255, 255, 255, 0.84);
 }
 ul ul li{
     align-items: center;
